@@ -1,0 +1,88 @@
+.header__left{
+    color:white;
+    font-size: xxx-large;
+    font-weight: 400;
+
+}
+.header{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.header__right{
+    color:white;
+    display: flex;
+    flex-direction: row;
+}
+.btn1{
+    background-color: aqua;
+    width: 86px;
+    height: 50px;
+    border-radius: 99px;
+    color:black;
+}
+.address{
+    color:lightseagreen;
+    display: flex;
+    flex-direction: column;
+}
+.send{
+    background-color: black;
+    color:white;
+    width:70px;
+    height: 49px;
+    border: 2px solid white;
+}
+.types h2{
+    color:white;
+
+}
+.Assets{
+    border: 1px solid white;
+}
+.types{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.Name{
+    color:white;
+    margin: 45px;
+}
+.Bitcoin img{
+    width: 45px;
+    height: 67px;
+}
+.Bitcoin span{
+    color:white;
+    padding-left: 16px;
+    display: flex;
+    flex-direction: row;
+
+}
+.Bitcoin{
+    display: flex;
+    border:1px solid white;
+    flex-direction: row;
+}
+.Bitcoin h2{
+    display: flex;
+    padding-left: 16px;
+    flex-direction: row;
+    color:brown;
+}
+.Balance{
+    color:blue;
+    margin-left:77px;
+}
+.Balance h2{
+    font-size: small;
+}
+.Balance:hover{
+    cursor: pointer;
+    visibility: visible;
+    background-color: aqua;
+    transition-duration: 200ms ease out;
+}
